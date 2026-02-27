@@ -205,17 +205,22 @@ That boundary allows:
 
 ## Final Conceptual Connections
 
-Separation of Concerns
+**Separation of Concerns**
+
 We separated application intent from storage mechanics.
 
-Encapsulation
+**Encapsulation**
+
 We encapsulated SQL and mapping inside the repository.
 
-Program to Abstractions
+**Program to Abstractions**
+
 We depend on interfaces, not concrete classes.
 
-Interface Segregation
+**Interface Segregation**
+
 We split generic CRUD from domain-specific operations.
 
-Dependency Inversion
+**Dependency Inversion**
+
 High-level code depends on abstractions.
